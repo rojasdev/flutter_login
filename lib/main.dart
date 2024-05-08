@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
     final String password = passwordController.text.trim();
 
     // Your API endpoint
-    const String apiUrl = 'https://devlab.helioho.st/serve/validate.php';
+    const String apiUrl = 'REPLACE_WITH_YOUR_API_URL';
 
     try {
       final response = await http.post(
